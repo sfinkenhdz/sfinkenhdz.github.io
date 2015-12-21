@@ -1,0 +1,59 @@
+aside li {
+	position: absolute;
+	right: 2em;
+	width: 5em;
+	height: 2em;
+	font-family: Helvetica;
+  	color: #424242;
+  	background-color: #a9a9a9;
+  	font-size: 16;
+  	border-color: #424242;
+  	border-style: solid;
+  	border-width: thin;
+  	margin: 2em;
+}
+
+article {
+	width: 80%;
+	height: 40em;
+	border-color: #424242;
+  	border-style: solid;
+  	border-width: thin;
+  	margin: 2em;
+}
+
+.li1 {
+	position: absolute;
+	top: 10em;
+}
+
+.li2 {
+	position: absolute;
+	top: 12em;
+}
+
+.li3 {
+	position: absolute;
+	top: 14em;
+}
+
+.li4 {
+	position: absolute;
+	top: 16em;
+}
+
+.li5 {
+	position: absolute;
+	top: 18em;
+}
+
+.li6 {
+	position: absolute;
+	top: 20em;
+}
+
+.li7 {
+	position: absolute;
+	top: 22em;
+}
+
