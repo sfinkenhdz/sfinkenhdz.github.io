@@ -14,7 +14,7 @@ header {
  }
 
 
-nav li { 
+nav li {
   width: 19%;
   display: inline;
   float: left;
@@ -27,7 +27,7 @@ nav li {
   border-style: solid;
   border-width: thin;
   }
-  
+
 a {
   text-decoration: none;
   color: #424242;
@@ -35,6 +35,10 @@ a {
 
 a: hover {
   color: #ffff00;
+}
+
+a: visited {
+  color: yellow;
 }
 
 img.adjusted {
