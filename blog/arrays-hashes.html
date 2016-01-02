@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Blog 3</title>
+     <meta charset="UTF-8">
+      <link href="../stylesheets/default.css" type="text/css" rel="stylesheet" />
+      <link href="../stylesheets/blog.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+    Holding onto Data with Arrays and Hashes
+    </header>
+    <nav>
+      <li><a href="http://sfinkenhdz.github.io/index.html">Home</a></li>
+      <li> <a href="#">About</a></li>
+      <li><a href="http://sfinkenhdz.github.io/blog-index.html">Blog</a></li>
+      <li><a href="#">Projects</a></li>
+      <li> <a href="#">Contact</a></li>
+    </nav>
+    <article>
+      <p>
+        I've been watching a lot of Criminal Minds this winter, and have been especially interested in the character Penelope Garcia, an FBI tech analyst. The other agents call her from a crime scene, and say "Okay, Garcia. I need you to run a list of anyone involved in a car accident between 1998 and 2006, and cross-reference that with anyone between the ages of 25 and 35 who has a criminal record in the state of Nevada." A few quick key strokes later, and the team has a list of suspects. Occasionally, a serial killer will resurface after decades of dormancy, requiring a much more tedious and time-consuming search through paper files.
+      </p>
+      <p>
+        This ability to store, search and manipulate large amounts of data is at the core of many useful computer programs. To be able to do this, a computer program needs to be able to store information in organized and meaningful ways. And like a well-organized closet, desk or office, you'll need a variety of containers that are right for the task. For computer programs using Ruby, two of the most useful containers are arrays and hashes.
+      </p>
+      <p>
+        An array is basically a list of things. This list could contain strings, integers, floats and even other arrays. For example, you could have an array that includes the name of everyone with a criminal record in a particular state. You can add new names into the array, search through it, compare it to another data set, merge it with another array, or search for specific name based on its index or position in the array, for example if you wanted to know the first or tenth person on the list for some reason.
+      <p>
+        This array could look like this: criminals = ["John Smith", "Santa Claus", "Rip van Winkle", "Slayer", "Bonnie", "Clyde"]
+      </p>
+      <p>
+        A hash is another sort of container, but it contains pairs of items, called keys and values. Each key is assigned its own value. Each key must be unique, but two keys can have the same value. For example, you could have a hash that contains names and ages. Each name is unique, but two or more people could have the same age. You could then search through this hash for a particur person to find their age, add or remove elements, compare with another data set, etc.
+      </p>
+      <p>
+        This hash could look like this:
+        age_hash = {"John Smith" => 25,
+                    "Santa Claus" => 900,
+                    "Rip van Winkle" => 101,
+                    "Slayer" => 28,
+                    "Bonnie" => 25,
+                    "Clyde" => 32}
+      </p>
+      <p>
+        Using an array and a hash like the one above (although of course, much larger), Penelope Garcia can start to narrow a daunting amount of information into a very manageable suspect list for her FBI unit to investigate. An array, a hash, and a few other bits of computer magic that I haven't learned yet and we've got one less (ficional) serial killer on the street. I'd have to say those are a couple of pretty useful containers.
+      </p>
+    </article>
+    <table>
+      <tr>
+        <td class="td1"><a href="https://sfinkenhdz.github.io/blog/git.html">Blog 1</a></td>
+      </tr>
+      <tr>
+        <td class="td2"><a href="https://sfinkenhdz.github.io/blog/css-concepts.html">Blog 2</a></td>
+      </tr>
+      <tr>
+        <td class="td3"><a href="#">Blog 3</a></td>
+      </tr>
+      <tr>
+        <td class="td4"><a href="#">Blog 4</a></td>
+      </tr>
+      <tr>
+        <td class="td5"><a href="#">Blog 5</a></td>
+      </tr>
+      <tr>
+        <td class="td6"><a href="#">Blog 6</a></td>
+      </tr>
+      <tr>
+        <td class="td7"><a href="#">Blog 7</a></li>
+      </tr>
+    </table>
+  </body>
+</html>
+
