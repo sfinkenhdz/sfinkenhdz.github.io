@@ -4,17 +4,19 @@ aside li {
 	width: 5em;
 	height: 2em;
 	font-family: Helvetica;
-  	color: #424242;
-  	background-color: #a9a9a9;
-  	font-size: 16;
-  	border-color: #424242;
-  	border-style: solid;
-  	border-width: thin;
-  	margin: 2em;
+  color: #424242;
+  background-color: #a9a9a9;
+  font-size: 16;
+  border-color: #424242;
+  border-style: solid;
+  border-width: thin;
+  margin: 2em;
+  list-style-type: none;
 }
 
 article {
-	width: 80%;
+	text-align: left;
+  width: 80%;
 	height: 40em;
 	border-color: #424242;
   	border-style: solid;
