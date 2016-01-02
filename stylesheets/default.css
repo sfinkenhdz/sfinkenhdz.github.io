@@ -26,6 +26,7 @@ nav li {
   border-color: #424242;
   border-style: solid;
   border-width: thin;
+  border-radius: 2px;
   }
 
 a {
@@ -33,11 +34,11 @@ a {
   color: #424242;
 }
 
-a: hover {
+a:hover {
   color: #ffff00;
 }
 
-a: visited {
+a:visited {
   color: yellow;
 }
 
