@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Blog 4</title>
+     <meta charset="UTF-8">
+      <link href="../stylesheets/default.css" type="text/css" rel="stylesheet" />
+      <link href="../stylesheets/blog.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+    Enumerable Methods
+    </header>
+    <nav>
+      <li><a href="http://sfinkenhdz.github.io/index.html">Home</a></li>
+      <li> <a href="#">About</a></li>
+      <li><a href="http://sfinkenhdz.github.io/blog-index.html">Blog</a></li>
+      <li><a href="#">Projects</a></li>
+      <li> <a href="#">Contact</a></li>
+    </nav>
+    <article>
+    <p>
+      First, we learned about how to collect things together in Ruby with arrays and hashes. But what fun is just holding onto a bunch of stuff and staring at it? It's only fun if you can do stuff with your stuff. So, this week, we learned about the Enumerable, which is a module of methods that can be used to do stuff with your stuff in arrays and hashes.
+    </p>
+    <p>
+      Using the methods in Enumerable, you can search through an array or hash for a particular item that might be in there, sort, select or reject a certain item and do lots of other cool stuff. But what if you wanted to sort everything in the array or hash based on a certain criteria and then group the items based on that criteria? That's when group_by comes in handy.
+  </p>
+  <p>
+      For example, if you had an array of words or names, and you wanted to group them by their length, you could do:
+  </p>
+  <p>
+      words.group_by {|word| word.length}
+  </p>
+  <p>
+      And, you would get a hash with keys that represent lengths and values in the form of an array containing all words of that length, like this:
+      {5 => ["snake" "boots"] 4 => ["lake" "ball" "fish"] 2 => ["at", "be", "it"]}
+  </p>
+  <p>
+      You could also use group_by to group these words by the letter they start with, like this:
+  </p>
+  <p>
+      grouped_by_first_letter = words.group_by { |s| s[0] }
+  </p>
+  <p>
+      Combining group_by with the random number generator, you could also mix your array contents up and assign them to random groups, like this:
+  </p>
+  <p>
+      words.group_by{rand(3) + 1}
+  </p>
+  <p>
+      Try these codes out, and think about what else you might want to group your collections by. I'm sure these examples are just the tip of the group_by iceberg, and just one more useful method brought to you by the amazing Enumerable.
+  </p>
+    </article>
+    <table>
+      <tr>
+        <td class="td1"><a href="https://sfinkenhdz.github.io/blog/git.html">Blog 1</a></td>
+      </tr>
+      <tr>
+        <td class="td2"><a href="https://sfinkenhdz.github.io/blog/css-concepts.html">Blog 2</a></td>
+      </tr>
+      <tr>
+        <td class="td3"><a href="#">Blog 3</a></td>
+      </tr>
+      <tr>
+        <td class="td4"><a href="#">Blog 4</a></td>
+      </tr>
+      <tr>
+        <td class="td5"><a href="#">Blog 5</a></td>
+      </tr>
+      <tr>
+        <td class="td6"><a href="#">Blog 6</a></td>
+      </tr>
+      <tr>
+        <td class="td7"><a href="#">Blog 7</a></li>
+      </tr>
+    </table>
+  </body>
+</html>
+
