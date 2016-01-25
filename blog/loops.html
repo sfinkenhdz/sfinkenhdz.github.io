@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Blog 6</title>
+     <meta charset="UTF-8">
+      <link href="../stylesheets/default.css" type="text/css" rel="stylesheet" />
+      <link href="../stylesheets/blog.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+    Ruby and JavaScript Loops
+    </header>
+    <nav>
+      <li><a href="http://sfinkenhdz.github.io/index.html">Home</a></li>
+      <li> <a href="#">About</a></li>
+      <li><a href="http://sfinkenhdz.github.io/blog-index.html">Blog</a></li>
+      <li><a href="#">Projects</a></li>
+      <li> <a href="#">Contact</a></li>
+    </nav>
+    <article>
+    <p>
+      Programming languages are essentially a means of communicating between human and computer. And, humans and computers think and communicate very differently. Humans have a much more extensive vocabulary than computers, and assign more meaning to xx can conceptualize nuanced meaning from the same word given its context and relation to other words. Also, human brains have an easier time reading and understanding text if it is presented in a more readable format, with white space, tabs, etc. to help create order. And, humans judge things based on their aesthetics. A piece of code may be readable and do exactly what it should, but humans also want it to look nice. Computers don't care about any of this.  Many of the differences in looping in Ruby and JavaScript are due to the fact that Ruby is designed with the human user more in mind.
+    </p>
+    <p>
+      The biggest difference between looping in Ruby and JavaScript is that Ruby offers many built-in methods to perform different types of looping operations, but JavaScript offers only two types of loops: for and while.These two types of loops are plenty. You can loop however you need to by building on "for" and "while." However, it definitely makes a human's life easier to have more built-ins, and the more precise language makes code more readable.
+    </p>
+    <p>
+      For example: for (var i=0; i < array.length; i++) in JavaScript basically means "each".
+    </p>
+    <p>
+    If you really wanted to use all of Ruby's loops in JavaScript, you could always create your own methods. This requires using a callback function, which is a function called as an argument from anothetr function, using the parameter "func" to stand in for the function which will be called.
+    </p>
+    <p>
+    <!-- var map = function(array, func) {
+    var results = [];
+    </p>
+    <p>
+    for (var i=0; i < array.length; i++) {
+    results.push(func(array[i]));
+    }
+    </p>
+    <p>
+    return results;
+    }; -->
+    A couple of other things to keep in mind - JavaScript does NOT have implicit return, so if you want a value in your loop returned, you've got to do it yourself, using the keyword "return." Also, JavaScript doesn't allow negative indexing ([-1] to indicate the last element in an array). Again, you can do it, you just need to put in a little extra legwork: array.numbers[numbers.lenth -1].
+  </p>
+  <p>
+    Sure, it's tempting to go running back to our old friend, Ruby, but really JavaScript can do anything Ruby can, you might just have to work a little for it. And, you can use JavaScript to do cool stuff on the web. So, doesn't that make up for it?
+  </p>
+
+    </article>
+    <table>
+      <tr>
+        <td class="td1"><a href="https://sfinkenhdz.github.io/blog/git.html">Blog 1</a></td>
+      </tr>
+      <tr>
+        <td class="td2"><a href="https://sfinkenhdz.github.io/blog/css-concepts.html">Blog 2</a></td>
+      </tr>
+      <tr>
+        <td class="td3"><a href="#">Blog 3</a></td>
+      </tr>
+      <tr>
+        <td class="td4"><a href="#">Blog 4</a></td>
+      </tr>
+      <tr>
+        <td class="td5"><a href="#">Blog 5</a></td>
+      </tr>
+      <tr>
+        <td class="td6"><a href="#">Blog 6</a></td>
+      </tr>
+      <tr>
+        <td class="td7"><a href="#">Blog 7</a></li>
+      </tr>
+    </table>
+  </body>
+</html>
+
