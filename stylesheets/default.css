@@ -11,11 +11,12 @@ header {
   border-style: solid;
   border-color: #424242;
   width: 100%;
+  padding: 2px;
  }
 
 
 nav li {
-  width: 19%;
+  width: 18%;
   display: inline;
   float: left;
   margin: 2px;
@@ -27,6 +28,7 @@ nav li {
   border-style: solid;
   border-width: thin;
   border-radius: 2px;
+  padding: 2px;
   }
 
 a {
@@ -48,9 +50,14 @@ img.adjusted {
 
 article {
   width: 45%;
+  height: 200px;
   display: inline;
   float: left;
   margin: 5px;
+  padding: 2px;
+  border-color: #424242;
+  border-style: solid;
+  border-width: thin;
 }
 
 h4 {
@@ -59,4 +66,7 @@ h4 {
   font-size: 18px;
   border-color: #424242;
   border-style: solid;
+  padding: 2px;
+  position: relative;
+  top: -25px;
   }
