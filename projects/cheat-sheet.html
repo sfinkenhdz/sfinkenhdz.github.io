@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>
+        Cheat Sheet
+      </title>
+      <meta charset="UTF-8">
+      <link href="cheat-sheet.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+    Basic Syntax and Tools in Ruby and JavaScript
+    </header>
+    <article class = "col">
+      <h3>Control Flow</h3>
+      <h4>Ruby</h4>
+      <p>
+        if x > 10
+      </p>
+      <p class = "indent">
+        puts x
+      </p>
+      <p>
+        end
+      </p>
+      <p>
+        if x > 10 then puts x end
+      </p>
+      <p>
+        if x > 10; puts x; end
+      </p>
+      <p>
+        Additional tools: if/elsif/else, unless, case/when
+      </p>
+      <h4>JavaScript</h4>
+      <p>
+        if(x>10){
+      </p>
+      <p class = "indent">
+        console.log(x);
+      </p>
+      <p>
+      }
+      </p>
+      <p>
+       Additional tools: if/else if/else, switch/case/default
+     </p>
+     <p>
+     </p>
+    </article>
+    <article class = "col">
+    <h3>Iteration</h3>
+      <h4>Ruby</h4>
+      <p>
+        n = 1
+      <p>
+        while n < 11
+      </p>
+      <p class = "indent">
+        puts n
+      </p>
+      <p class ="indent">
+        n += 1
+      <p>
+        end
+      </p>
+      <p>
+        Additional tools: for, until, times, loop, case/when, each and enumerables, and LOTS of built-ins
+      </p>
+      <h4>JavaScript</h4>
+      <p>
+        for (var num = 0; num <= 10; num ++){
+      </p>
+      <p class = "indent">
+        console.log(num);
+      </p>
+      <p>
+      };
+      </p>
+      <p>
+       Additional tools: while, switch/case/default, for var...in..., some built-ins
+    </article>
+    <article class = "full">
+      <h3>Creating a new method or function</h3>
+      <h4>Ruby</h4>
+      <p>
+        def square(x)
+      </p>
+      <p class = "indent">
+        x * x
+      </p>
+      <p>
+        end
+      </p>
+      <h4>JavaScript</h4>
+      <h5>To create a new function:</h5>
+      <p>
+      var square = function(x){
+      </p>
+      <p class = "indent">
+       x * x;
+      </p>
+      <p>
+        };
+      </p>
+      <p>
+      OR
+      </p>
+      <p>
+      function square (x){
+      </p>
+      <p class = "indent">
+       x * x;
+      </p>
+      <p>
+      }
+      </p>
+      <p>
+      (This is a function declaration and is conceptually moved to the top of the scope. Don't use it in a loop or conditional!)
+      </p>
+      <h5>To create a new method, define a function as a property of an object:</h5>
+      <p>
+      var person = {
+      </p>
+      <p class = "indent">
+      firstName: Joe,
+      </p>
+      <p class = "indent">
+      lastName: Smith,
+      </p>
+      <p class = "indent">
+      fullName: function(){
+      </p>
+      <p class = "indent">
+        return this.firstName + " " + this.lastName;
+      </p>
+      <p class = "indent">
+      }
+    </p>
+    <p>
+    }
+    </p>
+    </article>
+    <!-- <img alt="Wireframe" src = "wireframe-cheat-sheet.jpg"> -->
+  </body>
+</html>
+
+
+<!-- <a href="https://www.geico.com"><img alt="Geico" src="OvXPHtE.gif"></a>
+ -->
+
+
+
+
+
