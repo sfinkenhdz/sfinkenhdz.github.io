@@ -1,0 +1,46 @@
+body {
+  background-color: #ccccff;
+  text-align: center;
+  }
+
+ header {
+  font-family: Georgia, serif;
+  color: #99ff00;
+  background-color: #a9a9a9;
+  font-size: 36px;
+  border-style: solid;
+  border-color: #424242;
+  width: 98%;
+  padding: 2px;
+ }
+
+article {
+  text-align: left;
+  margin: 5px;
+  padding: 7px;
+  border-color: #424242;
+  border-style: solid;
+
+}
+
+
+h4 {
+  color: #CF5300;
+}
+
+.indent {
+  position: relative;
+  left: 10px;
+}
+
+.col {
+  width: 47%;
+  display: inline-block;
+  float: left;
+}
+
+.full {
+  position: absolute;
+  top: 600px;
+  width: 95%;
+}
